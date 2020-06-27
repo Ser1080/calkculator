@@ -1,0 +1,322 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+label{
+    font: 14px sans-serif;
+}
+.param-input{
+    width: 33%;
+    ackground-color: blanchedalmond;
+}
+.name-input{
+    width: 45%;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    order: 1px solid black;
+}
+.container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1%;
+    background-color: beige;
+    border: 1px solid black;
+}
+.name_menu{
+   font: bold 16px sans-serif;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+.container p{
+    font: 14px sans-serif;
+}
+.param{
+    width: 35%;
+    margin: 0 0 0 2%;
+    padding-bottom: 3%;
+    float: left;
+    box-shadow: 0 0 5px;
+    order: 1px solid red;
+}
+.param p{
+    margin: 1% 0 1% 0;
+    font: bold 14px sans-serif;
+}
+.m2, .v, .u, .o{
+    text-align: right;
+    margin-right: 2%;
+    order: 1px solid black;
+}
+
+.tip_plitu{
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+    box-shadow: 0 0 5px;
+    order: 1px solid black;
+}
+.tp{
+    order: 1px solid black;
+}
+.tp_select{
+    width: 50%;
+    margin: 1% 2% 16% 0;
+    float: right;
+    order: 1px solid black;
+}
+.tp_img{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    order: 1px solid black;
+}
+.tp_img img{
+    width: 100%;
+    height: 100%;
+    float: right;
+    order: 1px solid black;
+}
+.tip_pokraski{
+    width: 25%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    float: left;
+    box-shadow: 0 0 5px;
+    order: 1px solid black;
+}
+
+
+.er{
+    font: 14px sans-serif;
+    color: red;
+    order: 1px solid black;
+}
+
+
+.st{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    order: 1px solid red;
+}
+.material_name{
+    width: 38%;
+    float: left;
+    argin-right: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+}
+.material_kol{
+    width: 31%;
+    float: left;
+    margin-right: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+}
+.material_job{
+    width: 28%;
+    float: right;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: beige;
+    border: 1px solid black;
+}
+.zakaz_name{
+    width: 100%;
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 1%;
+    border: 1px solid black
+}
+.zakaz_name1, .zakaz_name2{
+    width: 33%;
+    margin: 1% 0 1% 1%;
+    float: left;
+    order: 1px solid black;
+}
+.zakaz_name3{
+    width: 29%;
+    height: 100px;
+    margin: 1% 1% 1% 0;
+    float: right;
+    border: 1px solid black;
+}
+.zakaz_name1 p, .zakaz_name2 p, .zakaz_name1 span{
+    text-align: left;
+    font: 14px sans-serif;
+}
+.material_name span, .zakaz_name_name span, .material_kol span, .material_job span{
+    font: bold 16px sans-serif;
+}
+.material{
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    order: 1px solid black;
+}
+.material p{
+    font: 14px sans-serif;
+}
+.sr{
+    margin-top: 1%;
+    order: 1px solid black;
+}
+.str{
+    width: 45%;
+    float: left;
+    order: 1px solid black;
+}
+
+.strr{
+    width: 50%;
+    margin-right: 2%;
+    float: right;
+    order: 1px solid red;
+}
+.strr p{
+    text-align: right;
+}
+
+
+
+
+
+
+#total_rab, #total_mat{
+    width: 70%;
+    float: left;
+    argin-top: 9%;
+    text-align: right;
+    font: bold 14px sans-serif;
+    order: 1px solid red;
+}
+#ploschad, #stoimost_pl, #cena_rabot_pl, #cena_rabot_germetik, #cena_job_pok, 
+#cena_kley, #cena_germetika, #cena_gruntovka, #cena_kraska, #col_kley, #col_germetika,
+#col_gruntovka, #col_kraska, #col_dupel, #cena_dupel,#cena_rabot_otkos, #col_otkos, 
+#cena_otkos, #name, #tel, #email{
+    width: 70%;
+    float: left;
+    argin-top: 9%;
+    text-align: right;
+    font: 14px sans-serif;
+    color: green;
+    order: 1px solid black;
+}
+
+#na, #te, #emaill, #tip_pok_text, #tip_pl_text, #area, #height, #angle, #otkos, #tolchina_penoplasta{
+    width: 100%;
+    text-align: center;
+    font: 14px sans-serif;
+    color: green;
+    order: 1px solid black;
+}
+
+
+
+
+
+
+
+.material span{
+    font: bold 14px sans-serif;
+}
+
+
+.button{
+    width: 13%;
+    height: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font: 14px sans-serif;
+    border: 1px solid black;
+}
+.button_php{
+    width: 20%;
+    height: 40px;
+}
+.clr{
+    clear: both;
+}
+.info{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    order: 1px solid black;
+}
+
+.modelImg{
+  display: none;
+  }
+
+
+
+
+.name{
+    width: 100%;
+    order: 1px solid black;
+}
+.name-name, .name-tel, .name-email{
+    width: 30%;
+    margin: 0 0 1% 2%;
+    float: left;
+    box-shadow: 0 0 5px;
+    order: 1px solid black;
+}
+.name-input{
+    float: right;
+    margin: 1% 1% 1% 0;
+}
+
+
+
+
+.plita-tol{
+    width: 25%;
+    margin: 1% 4% 0 0;
+    float: right;
+    box-shadow: 0 0 5px;
+    order: 1px solid black;
+}
+.plita-tol p{
+    width: 65%;
+    margin: 10% 0 15% 0;
+    font: 14px sans-serif;
+    float: left;
+    order: 1px solid black;
+}
+.plita-tol span{
+    width: 25%;
+    margin: 2% 0 2% 0; 
+    float: right;
+    text-align: left;
+    order: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
